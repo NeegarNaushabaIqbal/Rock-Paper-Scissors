@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#game{
+    border: 2px solid white;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game h1{
+    color: white;
+}
+
+#buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#game button{
+    width: 100px; 
+    height: 40px; 
+    font-size: 18px; 
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #3498db, #ffffff);
+}
+
